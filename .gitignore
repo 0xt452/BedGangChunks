@@ -1,0 +1,12 @@
+# Build output
+/target/
+*.class
+# Local editors
+.idea/
+.vscode/
+*.iml
+# Local build status
+/BUILD-STATUS.md
+# OS files
+.DS_Store
+Thumbs.db
