@@ -1,0 +1,15 @@
+name: BedGangChunks
+version: 1.1.0
+main: dev.bedgang.BedGangChunks
+api-version: '26.2'
+description: Persistent mannequin chunk loaders for everyone.
+commands:
+  bedgang:
+    description: Create and remove your chunk loaders
+    aliases: [bgchunk]
+    usage: /bedgang spawn <radius> [name] | rename <1-5> <name> | list | remove <1-5|all>
+permissions:
+  bedgang.admin:
+    default: op
+    description: List or remove any player's loaders
+

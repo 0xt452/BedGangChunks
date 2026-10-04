@@ -1,0 +1,7 @@
+# Radius in chunks; 0 = center chunk, 1 = 3x3, 2 = 5x5.
+# Square radius, like Minecraft's view distance. Hard ceiling: 16.
+max-radius: 4
+# Limit queued chunk work each tick to avoid loading everything in one tick.
+chunks-per-tick: 4
+# Exact attached skin via the included client resource pack.
+skin-resource-pack: true
