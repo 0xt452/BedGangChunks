@@ -8,7 +8,6 @@ Downloads: [Plugin JAR](dist/BedGangChunks-1.1.0.jar) · [Skin resource pack](di
 2. Put `BedGangChunks-1.1.0.jar` in its `plugins` folder.
 3. Start the server. No other plugin is required.
 4. To see the attached skin, install `BedGangSkin-26.2.zip` in each client's resourcepacks folder and enable it under Options > Resource Packs. Do not extract the ZIP.
-5. Join and run `/bedgang spawn 2` at the desired location.
 
 For automatic distribution to everyone, host the skin ZIP at a direct HTTPS download URL and set `resource-pack` to that URL in server.properties. Set `resource-pack-sha1` to the hash in `SHA256SUMS-and-skin-SHA1.txt`. Set `require-resource-pack=true` if everyone must accept it. If your server already has a resource pack, merge the ZIP's `assets/bedgang` folder into that pack and recompute its hash. The skin ZIP is not a server plugin; putting it in plugins does not install the skin for clients.
 
