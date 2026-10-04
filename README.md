@@ -20,10 +20,10 @@ Commands are available without op by default.
 | `/bedgang spawn <radius> [name]` | Create a loader at your feet in your first free slot |
 | `/bedgang remove <1-5>` | Remove one of your loaders |
 | `/bedgang remove all` | Remove all of your loaders |
-|- `/bedgang rename 1 &4&lBedgang`| renames your slot 1 bot to dark red, bold Bedgang.|
-|- `/bedgang rename 2 &aIron Farm`| uses a green name with spaces.|
-|- `/bedgang spawn 2 &6Gold Farm`| creates a radius-2 loader with a gold name.|
-|- `/bedgang list`| shows each formatted name beside its slot and location.|
+| `/bedgang rename 1 &4&lBedgang`| renames your slot 1 bot to dark red, bold Bedgang.|
+| `/bedgang rename 2 &aIron Farm`| uses a green name with spaces.|
+| `/bedgang spawn 2 &6Gold Farm`| creates a radius-2 loader with a gold name.|
+| `/bedgang list`| shows each formatted name beside its slot and location.|
 
 `/bgchunk` is an alias. Each player has a hard limit of five loaders across all worlds, including while offline. Players can remove only their own loaders. OPs have the same five-loader creation limit.
 
